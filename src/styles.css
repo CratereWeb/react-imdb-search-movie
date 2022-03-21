@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+#search-form {
+  margin-top: 50px;
+  text-align: center;
+}
+#search-input {
+  border-radius: 4px;
+  border: 1px solid #0f0f0f;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+}
+.movie-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid red; */
+}
+.movie-header {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  /* border: 1px solid red; */
+}
+.movie-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #0f0f0f;
+  margin: 0;
+  padding: 0;
+}
+.movie-poster {
+  margin: 0;
+  padding: 0;
+}
+.movie-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #0f0f0f;
+  color: #f0f0f0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  /* border: 1px solid red; */
+}
+.text-container {
+  width: 100%;
+  border-top: 1px solid lightgrey;
+  padding: 0.4em;
+  padding-top: 2rem;
+  /* border: 2px dashed black; */
+}
